@@ -8,7 +8,7 @@ app = Flask(__name__)
 topic = 'test'
 consumer = KafkaConsumer(
     topic,
-    bootstrap_servers=['192.168.1.8:9092'],
+    bootstrap_servers=['192.168.43.33:9092'],
     auto_offset_reset='latest'
 )
 
